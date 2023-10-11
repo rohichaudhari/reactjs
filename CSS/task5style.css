@@ -1,0 +1,25 @@
+body{
+    
+    background-image: url(fldr/sky.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img1{
+    position: absolute;
+    top:200px;
+    left: 100px;
+    animation-name: aero;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes aero{
+    to{
+        transform: translate(1000px);
+    }
+    from{
+        transform:rotate(-45deg);
+    }
+   
+}

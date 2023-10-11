@@ -1,0 +1,83 @@
+.online-font{
+    font-size: 20px;
+    font-family: 'Lugrasimo', cursive;
+}
+.d-none{
+    display: none;
+}
+.demobox{
+    display: inline;
+}
+.demobox p{
+    display: inline;
+}
+.demobox div{
+    display: inline;
+}
+ .demobox-2{
+     display:inline; 
+    background-color: green;
+} 
+.mainbox{
+    height: 200px;
+    width: 1000px;
+    background-color: yellow;
+    display: flex;
+}
+.box-1{
+    height:50px; 
+    width: 50px;
+    flex-basis: 100px;
+    /* flex-grow:1; */
+    flex-shrink: 1;
+    background-color: aqua;
+    
+}
+.box-2{
+   height: 50px;
+    width: 50px;
+     background-color: red;
+     /* flex-grow: 1; */
+}
+.box-3{
+    height: 50px;
+     width: 50px;
+      background-color: #6200ff;
+ }
+ .box-4{
+    height: 50px;
+     width: 50px;
+      background-color: #ff0055;
+ }
+ .box-5{
+    height: 50px;
+     width: 50px;
+      background-color: #250792;
+ }
+ .box-6{
+    height: 50px;
+     width: 50px;
+      background-color: #ff0055;
+ }
+ .box-7{
+    height: 50px;
+     width: 50px;
+      background-color: rgb(76, 0, 255);
+ }
+ .box-8{
+    height: 50px;
+     width: 50px;
+     /* flex-grow: 4; */
+      background-color: green;
+ }
+ .box-9{
+    height: 50px;
+     width: 50px;
+      background-color: pink;
+ }
+ .box-10{
+    height: 50px;
+     width: 50px;
+      background-color: red;
+      /* flex-grow: 1; */
+ }

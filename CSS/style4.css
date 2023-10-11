@@ -1,0 +1,79 @@
+/* text color */
+.text-color p{
+    color: red;
+}
+/* text alignment */
+.text-alignment p:nth-child(1){
+    text-align: left;
+}
+.text-alignment p:nth-child(2){
+    text-align: right;
+    color: pink;
+}
+.text-alignment p:nth-child(3){
+    text-align: center;
+}
+.text-alignment p:nth-child(4){
+    text-align:justify;
+}
+/* text decoration */
+.text-decoration p:nth-child(1){
+    text-decoration: overline;
+}
+.text-decoration p:nth-child(2){
+    text-decoration:line-through;
+}
+.text-decoration p:nth-child(3){
+    text-decoration:underline;
+}
+.text-decoration p:nth-child(4){
+    text-decoration: wavy;
+    background-color: yellow;
+}
+.text-decoration p:nth-child(5){
+    text-decoration:underline dotted;
+}
+/* text transform */
+.text-transform p:nth-child(1){
+    text-transform: capitalize;
+}
+.text-transform p:nth-child(2){
+    text-transform:lowercase;
+}
+.text-transform p:nth-child(3){
+    text-transform:uppercase;
+    background-color: blueviolet;
+}
+.text-indentation p:nth-child(1){
+    text-indent: 500px;
+}
+/* letter spacing */
+.letter-spacing p{
+    letter-spacing: 40px;
+    background-color: aqua;
+}
+/* text direction */
+.text-direction p{
+   direction:rtl;
+    background-color: chartreuse;
+}
+.text-shadow p{
+     text-shadow: 10px red;
+     background-color: yellowgreen;
+}
+.word-spacing p{
+    word-spacing:10px
+}
+/* verticle align */
+p.a{
+    vertical-align: bottom;
+}
+/* whitespace */
+.whitespace{
+    white-space:no-wrap;
+    background-color: aquamarine;
+}
+/* css visibility */
+h1{
+    visibility: hidden;
+}

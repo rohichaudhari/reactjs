@@ -1,0 +1,18 @@
+.online-font{
+    /* font-family: 'Lugrasimo', cursive;
+font-family: 'Lumanosimo', cursive; */
+font-family: 'Rosarivo', serif;
+
+}
+.d-none{
+    display: none;
+}
+.demobox{
+    display: inline;
+}
+.d-inline p{
+    display:inline;
+}
+.demobox div{
+    display: inline;
+}

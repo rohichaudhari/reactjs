@@ -1,0 +1,97 @@
+.main{
+    height: 400px;
+    width:900px;
+    background-color: aqua;
+}
+.box-1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    /* margin: auto; */
+    margin-top: 20px;
+   
+}
+.box-1:hover{
+    /* transition-duration: 5s;
+    transition-delay: 5s;
+    transition-property:width;
+    transition: 5s  5s width ease-in; */
+    /* transition-property: height;
+    transition-duration: 5s;
+    transition-delay: 5s; */
+    transition: 5s 5s height ease-out;
+    height: 400px;
+    width: 900px;
+    background:blue;
+    /* transition-timing-fubnction: ease; */
+    /* transition-timing-function:linear; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: ease-out; */
+    /* transition-timing-function: ease-in-out; */
+    
+}
+.div-1{
+    background-color: brown;
+    height: 200px;
+    width:200px;
+    font-size: 50px;
+    color: black;
+}
+.div-1:hover{
+    /* transform: translatex(100px); */
+    transform: translatey(100px);
+    /* transform: translate(100px,100px); */
+}
+.div-2{
+    background-color:yellow;
+    height: 100px;
+    width:200px;
+    font-size: 50px;
+    color: black;
+}
+.div-2:hover{
+    /* transform: scalex(5); */
+    /* transform: scaley(5); */
+    transform: scale(5,5);
+    transition: 2s;
+}
+.div-3{
+    background-color:yellow;
+    height: 200px;
+    width:200px;
+    font-size: 50px;
+    color: black;
+    margin: auto;
+}
+.div-3:hover{
+    transition: 5s;
+    /* transform: rotate(380deg); */
+    /* transform: rotate(45deg); */
+    /* transform: rotate(90deg); */
+    transform: rotate(180deg);
+    /* transform: rotate(380deg); */
+
+}
+.div-4{
+    background-color:rgb(255, 0, 13);
+    height: 200px;
+    width:200px;
+    font-size: 50px;
+    color: black;
+    
+}
+.div-4:hover{
+    transition: 3s;
+    transform: skewX(45deg);
+    /* transform: skewX(90deg); */
+    /* transform: skewX(180deg); */
+    /* transform: skewX(880deg); */
+    /* transform: skewy(45deg); */
+    /* transform: skewy(90deg); */
+     /* transform: skewy(180deg); */
+     transform: skewy(380deg);
+}
+
+
+

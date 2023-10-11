@@ -1,0 +1,27 @@
+body{
+    background-image: url(fldr/If-I-Could-Travel-Anywhere-I-Would-Go-To-Travel-Continuously.png);
+
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+/* .image{
+    width: 500px;
+    height: 500px;
+    background-image: url(fldr/road-images-Google-Search.png);
+    box-shadow: 0 0 8px #d61b1b;
+    background-position:center;
+    background-size: cover;
+    padding-left: 40px;
+    
+} */
+.right{
+    text-align-last: right;
+}
+.image{
+    display: flex;
+}
+

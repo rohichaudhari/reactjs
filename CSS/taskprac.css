@@ -1,0 +1,45 @@
+.mainbox{
+    height:410px;
+    max-width: 1500px;
+    /* background-color:pink; */
+    /* margin: 20px; */
+    padding: 20px;
+    /* position: relative; */
+}
+.one{
+    
+    height: 410px;
+    width: 650px;
+    float: left;
+}
+.two{
+   
+    height: 210px;
+    width: 330px;
+    float: left;
+}
+.three{
+    
+    height: 200px;
+    width: 200px;
+    float:left;
+}
+.text h1{
+    position: absolute;
+    top:0;
+    left: 350px;
+}
+.text h2{
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    font-weight: 900;
+    color: white;
+}
+.text button{
+    position: absolute;
+    top:390px;
+    left:300px;
+}
+
+    

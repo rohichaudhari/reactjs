@@ -1,0 +1,27 @@
+.Present{
+    display:flex;
+    background-color:palevioletred
+}
+pre{
+    font-size: large;
+    word-wrap: normal;
+}
+    
+.After{
+    display:flex;
+    background-color: palevioletred
+    
+}
+.future{
+    display: flex;
+    background-color:palevioletred
+}
+.footer{
+    background-color:palevioletred
+}
+.footer2{
+    background-color:palevioletred
+}
+.footer3{
+    background-color:palevioletred
+}

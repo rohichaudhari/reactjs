@@ -1,0 +1,41 @@
+body{
+    background-color: pink;
+    
+}
+.box-1{
+    height:50px;
+    width: 220px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    margin: auto;
+    text-align: center;
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode:backwards;
+}
+@keyframes ani{
+    0%{
+        transform:skew(60deg);
+    }
+    25%{
+        position: absolute;
+        /* top:80px; */
+        right:80px;
+        background-color: blue;
+    }
+    50%{
+        position: absolute;
+        /* top:80px; */
+        top:10px;
+        background-color: red;
+    }
+    75%{
+        position: absolute;
+        top:200px;
+        background-color: salmon;
+       
+    }
+}
+

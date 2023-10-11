@@ -1,0 +1,114 @@
+/* css border */
+.main{
+    width: 600px;
+    height: 100px;
+    border: 5px solid red;
+    display: flex;
+    margin:top;
+}
+.box-1{
+    width: 100px;
+    height: 50px;
+    border: 10px solid blue;
+    display: flex;
+    
+    background-color: pink;
+    
+}
+.box-2{
+    width: 100px;
+    height: 50px;
+    border: 10px dotted blue;
+    background-color: red;
+}
+.box-3{
+    width: 100px;
+    height: 50px;
+    border: 10px dashed black;
+    background-color: blueviolet;
+}
+.box-4{
+    width: 100px;
+    height: 50px;
+    border: 10px double #8079a1;
+    background-color: #2be286;
+}
+.box-5{
+    width: 100px;
+    height: 50px;
+    border: 10px hidden #8079a1;
+    background-color: #2be286;
+}
+.box-6{
+    width: 100px;
+    height: 50px;
+    border: 10px none #8079a1;
+    background-color: #2be286;
+}
+.box-7{
+    width:100px;
+    height: 50px;
+    border:10px ridge red;
+    background-color: yellow;
+}
+.box-8{
+    width:100px;
+    height: 50px;
+    border:10px inset #5900ff;
+    background-color:pink;
+}
+.box-9{
+    width:100px;
+    height: 50px;
+    border:10px outset red;
+    background-color:pink;
+}
+.box-10{
+    width: 100px;
+    height:50px;
+    border:10px groove black
+}
+/* border .radius */
+.radius{
+    height:100px;
+    width:100px;
+    border-radius: 100%;
+    background-color: black;
+}
+/* outline properties */
+.box-11{
+    height: 100px;
+    width: 200px;
+    outline:dashed;
+    background-color: #2be286;
+}
+/* css opacity */
+.opacity{
+    height: 100px;
+    width: 500px;
+    background-color: #5900ff;
+    opacity: 1;
+}
+/* css button */
+button{
+    background-color: red;
+}
+button:hover{
+    outline: 2px solid blue;
+}
+.link-1{
+    text-decoration:dotted
+}
+ a:hover{ 
+        border: 10px solid brown; 
+ } 
+a:focus{
+    border:10px solid black
+}
+input{
+    background-color: red;
+    font-weight: bold;
+}
+input:hover{
+    border: 10px dotted brown;
+}

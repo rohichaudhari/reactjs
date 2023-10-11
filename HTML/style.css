@@ -1,0 +1,33 @@
+.navbar{
+    background-color: pink;
+    height: 70px;
+    display:flex;
+    
+}
+.nav-quote{
+    color:blue;
+}
+.hobbies{
+    display:flex;
+    background-color: aqua;
+    color:brown;
+    
+}
+.footer{
+    background-color: yellow;
+    width:300px;
+    text-align: center;
+}
+.hobbies2{
+    display:flex;
+    background-color:aqua;
+    color:brown;
+}
+.footer2{
+    background-color: yellow;
+    width:300px;
+    text-align: center;
+}
+body{
+    background-color: aquamarine;
+}

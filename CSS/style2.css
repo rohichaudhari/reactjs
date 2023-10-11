@@ -1,0 +1,64 @@
+/* reseting value */
+p{
+    color: blue;
+}
+
+.para-11 p{
+    color: blueviolet;
+}
+.para-22 p{
+    color:brown
+}
+/* simple tag selector */
+p{
+    color:yellow
+}
+/* multi class selector */
+.div-3,div-1,div-2{
+    color:red;
+    background-color: yellow;
+}
+/* unique id selector */
+#box-1{
+    color:blue;
+    background-color: yellowgreen;
+    
+}
+#box-2{
+    color:red;
+}
+ /* a)decendent selector */
+.demo-1 p,h1{
+    color: blue;
+}
+/* b)child selector */
+.demo-2>p{
+    color: pink;
+}
+/* adjucent selector */
+ p+h1{
+    color:chartreuse;
+}
+/* general selector */
+p~h1{
+    color: red;
+}
+/* link slector */
+.option-1:link{
+    color:red
+}
+.option-2:active{
+    color:brown
+}
+.option-3:hover{
+    color:blueviolet
+}
+.option-4:visited{
+    color:tomato
+}
+/* css gradient  */
+ .linear-gradient-1{ 
+     height: 100px;
+     width: 10%; 
+ background: linear-gradient(to top,red ,rgb(140,65,28)); */
+} 

@@ -1,0 +1,42 @@
+ /* h1:only-child{
+    color: red;
+    background-color: green;
+    
+}   */
+/* p:not(h1){
+    color:red;
+    background-color: yellow;
+} */
+/* h1:first-child{
+    color: red;
+    background-color: yellow;
+} */
+/* h1:first-of-type{
+    color: red;
+    background-color: aqua;
+} */
+/* h1:last-child{
+    color: brown;
+    background-color: blueviolet;
+} */
+/* h1:last-of-type{
+    color: blueviolet;
+    background-color: ;
+} */
+/* h1:nth-child(3)
+{
+    background-color: yellowgreen;
+} */
+/* h1:nth-last-child(4){
+    background-color: chartreuse;
+} */
+/* h1:nth-last-of-type(2)
+{
+    background-color: blue;
+} */
+h1:nth-of-type(2){
+    background-color: aqua;
+}
+/* h1:only-of-type{
+    background-color: red;
+} */
