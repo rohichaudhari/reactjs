@@ -1,3 +1,40 @@
 body{
     background-image: url(fldr/garden.jpg);
 }
+.img{
+    position: absolute;
+    top:0;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+
+}
+@keyframes ani{
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translate(1000px);
+    }
+}
+.img2{
+    position: absolute;
+    bottom: 0;
+    animation-name: anni;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+
+}
+@keyframes anni{
+    0%{
+        transform: translatex(0px);
+
+    }
+    100%{
+        transform: translatex(1100px);
+    }
+}

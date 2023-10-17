@@ -14,7 +14,7 @@ body{
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-fill-mode:backwards;
-}
+    }
 @keyframes ani{
     0%{
         transform:skew(60deg);
