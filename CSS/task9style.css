@@ -1,0 +1,49 @@
+.box-1{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    position: relative;
+    
+}
+.b-1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+
+@keyframes ani{
+    0%{
+        position: absolute;
+        top:0;
+        left:0;
+        background-color: green;
+    }
+    10%{
+       transform: translateX(400px);
+       background-color: yellow;
+    }
+    20%{
+       
+        transform: translateY(400px);
+        background-color: white;
+    }
+    50%{
+       transform:translateX(400px);
+       background-color: brown;
+    }
+    70%{
+       transform: translateX(400px);
+       background-color: black;
+    }
+    100%{
+        transform: translateY(400px);
+        background-color: blue;
+    }
+   
+}
