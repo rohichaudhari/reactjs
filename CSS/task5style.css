@@ -1,25 +1,62 @@
-body{
-    
-    background-image: url(fldr/sky.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img1{
-    position: absolute;
-    top:200px;
-    left: 100px;
-    animation-name: aero;
-    animation-duration: 5s;
+.box-1{
+    background-color: red;
+    height: 500px;
+    width: 500px;
+    /* border: 10px dotted greenyellow; */
+    animation-name: anni;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     
 }
-@keyframes aero{
-    to{
-        transform: translate(1000px);
+.b-1{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes ani{
+    0%{
+        transform: translate(0,0);
+
+        background-color: yellow;
     }
-    from{
-        transform:rotate(-45deg);
+    50%{
+        transform: translate(400px,0);
+        background-color: white;
+    }
+    75%{
+        transform:translate(400px,400px);
+        background-color: brown;
+    }
+    90%{
+        transform: translate(0,400px);
+        background-color: blue;
+    }
+    100%{
+        transform: translateX(400);
+        background-color: rgb(119, 17, 215);
     }
    
+}
+@keyframes anni{
+    0%{
+        transform: rotate(0);
+        border-top: 10px dotted rgb(68, 0, 255) ;
+    }
+    50%{
+        
+        border-right: 10px dotted black ;
+    }
+    75%{
+        border-bottom: 10px dotted purple ;
+    }
+    100%{
+        border-left: 10px dotted darkcyan;
+    }
 }
