@@ -1,0 +1,12 @@
+.col{
+    background-color: aqua;
+}
+.col-8{
+    background-color: rgb(0, 255, 13);
+}
+.col-4{
+    background-color: rgb(255, 136, 0);
+}
+.col-12{
+    background-color: blueviolet;
+}

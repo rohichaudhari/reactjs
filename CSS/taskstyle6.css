@@ -1,0 +1,29 @@
+body{
+    background-image: url(fldr/7208282.jpg);
+    background-size: cover;
+    
+}
+.task{
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+.task1{
+    position: absolute;
+    bottom: 0;
+    animation-name: ani;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+@keyframes ani{
+    0%{
+        transform: translateX(0px);
+    }
+    25%{
+        transform: translateX(800px);
+    }
+    100%{
+       transform: rotate(-30deg);
+    }
+}

@@ -1,0 +1,23 @@
+h3{
+    text-align: center;
+}
+.accordion{
+    width: 600px;
+    box-sizing: 0;
+    
+}
+.accordion-title{
+   margin-top: 10px;
+    background-color: rgb(119, 22, 209);
+    color: white;
+    border-radius: 20px;
+}
+.accordion-content{
+    margin-bottom: 10px;
+}
+.accordion-item{
+    border:0;
+}
+.accordion-title h6:hover{
+    background-color: blueviolet;
+}

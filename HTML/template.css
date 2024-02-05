@@ -1,0 +1,91 @@
+body{
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.title{
+    display: flex;
+    margin-right: 60px;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+.title pre{
+  display: block;  
+}
+.title span{
+    font-size:large;
+    font-weight: bold;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    color: black;
+    margin-right: 40px;
+}
+.navbar{
+    position: sticky;
+}
+a:hover{
+    background-color: blue;
+}
+.main{
+   margin-top: 10px;
+   flex-wrap: wrap;
+}
+.main pre{
+    position: absolute;
+    top:400px;
+    left:200px ;
+    font-size:xx-large;
+    font-weight: bold;
+}
+.main button{
+    position: absolute;
+    top:500px;
+    left:200px ;
+    font-size: large;
+}
+.text2 button{
+    position: absolute;
+    top:500px;
+    left:350px ;
+    background-color: blue;
+}
+.one{
+    
+    height: 120px;
+    width: 1300px;
+    background-color: #f0f0d6;
+}
+.fieldset{
+    position: absolute;
+    top:650px;
+    left:400px;
+}
+.text3{
+    height:130px ;
+    width: 300px;
+    background-color: #5555d6;
+    position: absolute;
+    top:600px;
+    left: 100px;
+}
+.imgg{
+    position: absolute;
+    top:20px;
+    left:130px;
+}
+.imgg pre{
+    position: absolute;
+    top:30px;
+    left:-80px;
+    font-size: 20px;
+    color: white;
+}
+.medical{
+    height: 300px;
+    width: 1300px;
+    background-color: #e0ece8;
+}

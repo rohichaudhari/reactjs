@@ -1,0 +1,23 @@
+
+.HTML{
+    align-items:center;
+    color: blue;
+    display: flex;
+    margin-right: 40px;
+}
+.navbar{
+   background-color: brown;
+    margin-inline-end: auto;
+    inline-size: auto;
+    scroll-margin-inline: 10px;
+    padding-right:40px;
+}
+body{
+    background-color: bisque;
+}
+.image2{
+    display: flex;
+}
+.image3{
+    display:flex;
+}

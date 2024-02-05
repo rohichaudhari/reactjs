@@ -1,0 +1,150 @@
+
+.mainbox{
+    height: 420px;
+    width:410px;
+    background-color:rgb(2,44, 35) ;
+    border-radius: 10px;
+    position: absolute;
+    top:50px;
+    /* margin-top: 20px; */
+    /* margin-top: 50px; */
+
+}
+.text1 p{
+    position: absolute;
+    left:150px;
+    top:0;
+    color: white;
+}
+.text1 h1{
+    position: absolute;
+    left:70px;
+    top:20PX;
+    color:yellow;
+}
+.img1{
+    position: absolute;
+    top:70px;
+    left:-4px;
+}
+.img2{
+    position: absolute;
+    top:320px;
+    left: 300px;
+}
+.mainbox-2{
+    height: 200px;
+    width:300px;
+    background-color:rgb(204, 38, 38) ;
+    border-radius: 10px;
+    margin-top: 40px;
+    position:absolute;
+    top: 10px;
+    left: 420px;
+    /* overflow: hidden; */
+    /* margin: 10px; */
+}
+.imgg{
+    position: absolute;
+    top:-29px;
+}
+
+
+.text2 p{
+    position: absolute;
+    color:white;
+    top:10px;
+    left: 130px;
+   
+}
+.text2 h1{
+    position: absolute;
+    color:white;
+    top:30px;
+    left: 130px;
+   
+}
+.text2 h3{
+    position: absolute;
+    color:yellow;
+    top:80px;
+    left: 130px;
+}
+.text2 button{
+    position: absolute;
+    background-color: white;
+    top:130px;
+    left: 130px;
+    font-size: large;
+    border-radius: 10px;
+}
+.mainbox-3{
+    height: 200px;
+    width:300px;
+    background-color:rgb(2,44, 35) ;
+    border-radius: 10px;
+    margin-top: 40px;
+    position:absolute;
+    top:10px;
+    left:735px;
+}
+.text3 p{
+    position: absolute;
+    color:white;
+    top:30px;
+    left: 150px;
+}
+.text3 h1{
+    position: absolute;
+    color:white;
+    top:50px;
+    left: 150px;
+   
+}
+.text3 button{
+    position: absolute;
+    background-color: white;
+    top:130px;
+    left: 150px;
+    font-size: large;
+    border-radius: 10px;
+}
+.mainbox-4{
+    height:200px;
+    width: 620px;
+    background-color: green;
+    border-radius: 10px;
+    margin-top: 40px;
+    position:absolute;
+    top:225px;
+    left:422px;
+}
+.img3{
+    position: absolute;
+    top:-20px;
+    right:450px;
+}
+.text4 pre:nth-child(1){
+    position: absolute;
+    color:white;
+    top:30px;
+    left:300px;
+   font-size:x-large;
+}
+.text4 h1{
+    position: absolute;
+    color: white;
+    top:50px;
+    left:350px;
+    font-size:xx-large;
+}
+.text4 button{
+    position: absolute;
+    background-color: white;
+    top:100px;
+    left:480px;
+    font-size:large;
+    width: 200px;
+    height:40px;border-radius: 10px;
+
+}

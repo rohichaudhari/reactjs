@@ -1,0 +1,19 @@
+p{
+    background-color:yellowgreen;
+    padding: 25px;
+}
+.menu item{
+    font-size: 20px;
+    padding:10px;
+    
+}
+#list-heading{
+    font-size: 20px;
+    padding:24px;
+    background-color: aqua;
+    color: black;
+    align-items: center;
+}
+.food-wrapper{
+    text-align: center;
+}

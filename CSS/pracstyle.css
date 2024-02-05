@@ -1,0 +1,54 @@
+a:first-child{
+    background-color: aqua;
+}
+a:nth-last-of-type(2){
+    background-color: yellow;
+}
+h1:only-child{
+    background-color: chartreuse;
+}
+p:only-child{
+    background-color: chartreuse;
+}
+h1:nth-last-child(20){
+    background-color: palevioletred;
+}
+h1:nth-last-child(17){
+    background-color: palevioletred;
+}
+h1:nth-last-child(15){
+    background-color: palevioletred;
+}
+section p:first-of-type{
+    background-color: blue;
+}
+h1:nth-child(21){
+    background-color: blueviolet;
+}
+h1:nth-child(18){
+    background-color: blueviolet;
+}
+h1:nth-child(15){
+    background-color: blueviolet;
+}
+div:nth-child(12) h1:last-child {
+    background-color: teal;
+}
+div:nth-child(12) h1:nth-last-child(6) {
+    background-color: teal;
+}
+div:nth-child(12) span:only-child{
+    background-color: peru;
+}
+div:nth-child(12) p:nth-of-type(2) {
+    background-color: peru;
+}
+div:nth-child(11) h1:nth-child(2){
+    background-color: orange;
+}
+div:nth-child(11) h1:nth-child(6){
+    background-color: orange;
+}
+
+
+

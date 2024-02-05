@@ -1,0 +1,22 @@
+.maindiv{
+    height: 500px;
+    width:900px;
+    background-color: palevioletred;
+    position: relative;
+    /* z-index: 1; */
+    
+}
+.child-div{
+    position: absolute;
+    height:100% ;
+    width: 100%;
+    background-color:rgb(255,0,0,1);
+    top: 0;
+    z-index: 1;
+}
+.child-div:hover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color:rgb(0, 0, 255,0.1);
+}

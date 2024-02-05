@@ -1,0 +1,12 @@
+.col{
+    border: 1px solid red;
+    background-color: aqua;
+}
+.col-6{
+    border: 1px solid red;
+    background-color: rgb(128, 0, 255);
+}
+.col-5{
+    border: 1px solid red;
+    background-color: rgb(0, 255, 94);
+}

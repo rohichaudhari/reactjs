@@ -1,0 +1,28 @@
+body{
+    background: linear-gradient(to right,#ff9999,#ff6666);
+}
+.accordion-item h6::after{
+    content: "\002B";
+    position:relative;
+    right: -21rem;
+    font-size: 2rem;
+}
+.accordion-content{
+    margin-bottom: 10px;
+    margin-left: 11px;
+}
+.accordion{
+    width:600px;
+  
+}
+/* .accordion-item h6 .active::after{
+    content: "\2212";
+    position:relative;
+    right: -21rem;
+    font-size: 2rem;
+
+} */
+h6{
+    margin-left: 10px;
+    
+}

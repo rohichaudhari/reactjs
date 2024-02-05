@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vr rule and visually hidden</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <!-- vr rule -->
+    <div class="button ms-5 mt-5">
+        <div class="btn btn-primary">click me</div>
+        <div class="vr bg-dark"></div>
+        <div class="btn btn-primary">click me</div>
+    </div>
+   
+    <div class="hstack gap-3">
+        <div class="h1">First item</div>
+        <div class="vr bg-danger"></div>
+        <div class="h1">Second item</div>
+        <div class="vr bg-success"></div>
+        <div class="h1">Third item</div>
+      </div>
+      <!-- visually hidden -->
+      <h2 class="visually-hidden mt-5">Title for screen readers</h2>
+<a class="visually-hidden-focusable mt-5" href="#content">Skip to main content</a>
+<div class="visually-hidden-focusable mt-5">A container with a <a href="#">focusable element</a>.</div>
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</body>
+</html>

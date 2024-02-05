@@ -1,0 +1,61 @@
+/* .main{
+    border:1px solid red;
+    margin-top: 50px;
+}
+.main{
+    border:1px solid red;
+    margin-left: 50px;
+}
+.main{
+    border:1px solid red;
+    margin-bottom: 50px;
+}
+.main{
+    border:1px solid red;
+    margin-right: 50px;
+} */
+/* .main{
+    border:4px solid blue;
+    margin:50px 100px;
+} */
+.main{
+    border:2px solid black;
+    margin:50px 75px 100px 100px;
+}
+.demo-1{
+    border:4px solid red;
+    margin: 50px;
+}
+.demo-2{
+    border:4px solid blue;
+    margin:50px
+}
+.main-2{
+    border:1px solid red;
+    padding-top: 20px;
+}
+.main-2{
+    border:1px solid red;
+    padding-bottom: 20px;
+    margin-top: 100px;
+}
+.main-2{
+    border:1px solid red;
+    padding-left: 50px;
+}
+.main-2{
+    border:1px solid red;
+    padding-right: 50px;
+}
+.demo-3{
+    border: 2px solid blue;
+    padding: 20px;
+}
+.demo-4{
+    border: 2px solid rgb(255, 174, 0);
+    padding: 20px;
+    margin-top: 100px;
+}
+
+
+

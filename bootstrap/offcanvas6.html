@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task6</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg" style="background-color: #219C90;">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar scroll</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Link
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-around my-5">
+          <div class="align-self-center">    	
+            <h5 class="text-center m-0">Bootstrap of off-canvas Menu</h5>               
+        </div>
+        <div class="border p-2">
+            <button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"></button>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header bg-primary">
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="background-color: white;"></button>
+    <h5 class="offcanvas-title text-white" id="offcanvasRightLabel">Canvas Header</h5>
+  </div>
+  <div class="offcanvas-body">
+    <table class="table">
+        <thead>
+          <tr class="bg-secondary">
+            <th scope="col">#</th>
+            <th scope="col">Item</th>
+            <th scope="col">Qty.</th>
+            <th scope="col">Remove</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Quilt</td>
+            <td>2</td>
+            <td>*</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Shawi</td>
+            <td>1</td>
+            <td>*</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Pillow</td>
+            <td>5</td>
+            <td>*</td>
+          </tr>
+        </tbody>
+    </table>
+    <div>
+    <button class="btn btn-primary" style="margin-left: 150px;">checkout</button>
+    </div>
+    <div class="btn-group-vertical border border-2 my-3" role="group" aria-label="Vertical button group">
+        <button type="button" class="btn btn-ligth  border-bottom">cras justo odio</button>
+        <button type="button" class="btn btn-ligth border-bottom">lorem bootstrap</button>
+        <button type="button" class="btn btn-ligth border-bottom">offcanvas body</button>
+        <button type="button" class="btn btn-ligth border-bottom">offcanvas left</button>
+      </div>
+      <p class="lead m-5">suscribe to our new</p>
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1">@</span>
+        <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1">
+      </div>
+    </div>
+    <button type="button" class="btn btn-outline-secondary" style="height: 40px; width: 100px; margin-left: 300px;">suscribe</button>
+</div>
+</div>
+    </div>
+    <div class="container">
+        <p>Bootstrap version used: <span class="badge badge-pill badge-danger">4.2.1</span></p>
+        <div class="row my-5">
+            <div class="col-md-8">
+                <p>This is a demo of Bootstrap 4 off-canvas menu and sidebar, based on the <a href="#" class="text-primary">Fellow Tuts Article</a> and implements the accessibility features and support for screen readers and similar assistive technologies provided by Bootstrap.</p>
+                 <p>You can utilize the off-canvas siderbars in left, right or both side along with optional overlay and the smooth sidebar slide in/out transitions.</p>
+                <p>Click to the left arrow yellow button at the top-right corner to the navbar button in the action. Clicking to the hamburger icon will also slide in the respective off-canvas sidebar.</p>
+                <p class="text-center">
+                    <a href="#" class="btn btn-success">View Source</a>
+                    <a href="#" class="btn btn-primary">View Article</a>
+                    <a href="#" class="btn btn-danger">All Demos</a>
+                </p>
+            </div>        
+        </div>	
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
+</body>
+</html>

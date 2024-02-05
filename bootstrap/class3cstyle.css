@@ -1,0 +1,8 @@
+.col-sm-3{
+    background-color: aqua;
+    border:1px solid blue;
+}
+.col-sm-9{
+    background-color: rgb(255, 149, 0);
+    border: 1px rgb(12, 11, 11);
+}

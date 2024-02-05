@@ -1,0 +1,17 @@
+body{
+    background:linear-gradient(to right,rgb(141, 141, 215),rgb(239, 119, 119))
+}
+.accordion{
+    width: 450px;
+}
+.accordion-item{
+    margin-bottom:2px;
+}
+.accordion-title{
+    color:white;
+    background-color: rgb(71, 69, 69);
+    
+}
+.accordion-content{
+    background:linear-gradient(to right,rgb(141, 141, 215),rgb(198, 161, 161))
+}

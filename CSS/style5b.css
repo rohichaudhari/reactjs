@@ -1,0 +1,33 @@
+p::first-letter{
+    color:blue;
+    font-size: 50px;
+}
+p::first-line{
+    background-color: aqua;
+}
+li::first-letter{
+    color: red;
+    font-size: 50px;
+}
+li::first-line{
+    color: red;
+    font-size: 50px;
+}
+p{
+    color: brown;
+}
+p::selection{
+    color: orangered;
+}
+pre:hover:after{
+    content: "rohini";
+    background-color: palevioletred;
+}
+pre:hover::before{
+    content: "ganga";
+    background-color:green;
+}
+/* pre:focus::before{
+    content: "mamta";
+    background-color:rgb(38, 0, 128);
+} */

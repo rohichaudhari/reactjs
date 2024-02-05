@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(228, 230, 232);
+}
+.dropdown-menu{
+    border-bottom: 2px;
+    font-size: 25px;
+}
+.btn{
+    border: none;
+    color: blue;
+    font-size:25px;
+}
+/* .dropdown-toggle::after{
+    content: '\2227';
+} */
+

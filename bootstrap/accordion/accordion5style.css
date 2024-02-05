@@ -1,0 +1,37 @@
+.accordion{
+    width: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+body{
+    background-color: #ff6666;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+.accordion-header::before{
+    content:"\002B";
+    position:relative;
+    left: -1rem;
+    top:0rem;
+    font-size:40px;
+    height:20px;
+    width: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    
+}
+.accordion-header:focus-within::before{
+    content:"\2212";
+    position:relative;
+    left: -1rem;
+    top:0rem;
+    font-size:40px;
+    height:20px;
+    width: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 80%;
+    
+}
