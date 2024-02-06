@@ -1,0 +1,14 @@
+.box{
+    height: 250px;
+    width:400px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 200px;
+   
+}
+.box:hover{
+    width:520px;
+    height:300px;
+    transition-property:width height;
+    transition-duration: 5s;
+}

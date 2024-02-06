@@ -1,0 +1,34 @@
+.circle{
+    height: 120px;
+    width: 120px;
+    border:1px solid blue;
+    border-radius: 100%;
+    background-color: blue;
+
+    margin-top: 200px;
+    animation-name: robot;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes robot{
+    0%{
+        transform: translateX(0);
+       
+         background-color: blue;
+         border-radius: 100px;
+    }
+    50%{
+        transform: translateX(500px);
+         background-color: blue;
+         border: 20px solid red;
+         border-radius: 100px;
+    }
+    100%{
+        transform: translateX(900px);
+         background-color: blue;
+         border-radius: 100px;
+    }
+
+}
