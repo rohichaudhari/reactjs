@@ -1,0 +1,59 @@
+.container
+{
+    height: 500px;
+    width:500px;
+    background-color: antiquewhite;
+    margin: auto;
+    position: relative;
+ }
+.outer{
+    height: 400px;
+    width: 400px;
+    border-radius: 100%;
+    border-top: 10px solid red;
+    border-bottom: 10px solid green;
+    border-left: 10px solid green;
+    border-right: 10px solid green;
+    margin: auto;
+    animation-name: outer-circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+}
+@keyframes outer-circle{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.inner{
+    position: absolute;
+    top:100px;
+    left:140px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background-color: aqua;
+    border-top: 10px solid #575252;
+    border-bottom: 10px solid red;
+    border-left: 10px solid red;
+    border-right: 10px solid red;
+    margin: auto;
+    animation-name: inner-circle;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    
+}
+@keyframes inner-circle{
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(360deg);
+    }
+}
+

@@ -24,7 +24,7 @@ body{
     content: counter(count); 
     font-size: 5rem; 
 } 
- 
+
 @keyframes count{ 
     0% { 
       counter-increment: count 0; 

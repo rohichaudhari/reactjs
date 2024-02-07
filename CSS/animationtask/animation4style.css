@@ -57,12 +57,13 @@
 .image{
     position: absolute;
     left:800px;
-    top:400px;
+    top:300px;
     color:orangered;
     animation-name: richard;
     animation-duration: 5s;
     animation-timing-function: ease-out;
     animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
 }
 @keyframes cloud-1{
     from{
@@ -106,7 +107,7 @@
         transform: translateY(0);
     }
     to{
-        transform: translateY(-400px);
+        transform: translateY(-300px);
         color:yellow;
     }
 
