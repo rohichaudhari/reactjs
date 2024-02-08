@@ -1,0 +1,28 @@
+.pagination{
+    width:400px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: azure;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.page{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+ .pagination :nth-child(7){
+    background-color: lightgreen;
+    color: white;
+} 
+.page:hover{
+    background-color: red;
+
+} 

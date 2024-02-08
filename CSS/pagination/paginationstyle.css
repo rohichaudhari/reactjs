@@ -1,0 +1,40 @@
+.pagination{
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    gap:10px;
+}
+ .pagination .page{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border:2px solid red;
+    color:white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.pagination .page a{
+    text-decoration: none;
+}
+.pagination #active
+ {
+
+  background-color: #4CAF50;
+  color: black;
+  border: 1px solid #4CAF50;
+}
+.pagination .page:hover{
+  background-color: red;
+  color:white;
+}
+
+    
+
+
+
+  
+
+
+
+  
