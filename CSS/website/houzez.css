@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+  }
+  
+  body{
+    margin: 0;
+    font-family: Urbanist, sans-serif;
+  }
+  
+  a{
+    color:black;
+    font-weight: bold;
+  }
+  
+  /* container */
+ 
+  .container{
+    background-color:grey;
+    width:calc(100%-10%);
+    
+  }
+  /* navbar start */
+  .navbar{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: grey;
+    justify-content: space-between;
+  }
+  .nav-items{
+    display: flex;
+    align-items: center;
+}
+    
+  .nav-items nav ul{
+    display:flex;
+    gap:20px;
+  }
+  .nav-items nav ul a:hover
+  {
+   color: aqua;
+   transition: 1s;
+  }
+  .mobile-menu{
+      display: none;
+  }
+   .BUY{
+      height: 50px;
+      width: 10%;
+      background-color: green;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  .nav-items nav .BUY a{
+      color:white;
+  }
+  /* navbar end */
+
+      
+    
+  
+  
+
+
