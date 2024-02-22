@@ -30,7 +30,8 @@ section .image {
   background-color: white;
   display: flex;
   height: 300px;
-  margin-left: 200px;
+  align-items: center;
+  /* margin-left: 200px; */
 }
 section .image .image1 img {
   border-radius: 100%;
