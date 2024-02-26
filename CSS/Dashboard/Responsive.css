@@ -1,9 +1,9 @@
 
-/* ====================== 1200px =============================== */
+/*1200px  */
 
 @media (max-width:1200px)
 {
-    .asid-wrapper
+    .aside
     {
         display: none;
     }
@@ -36,11 +36,11 @@
 
 
 
-/* ================== 1020px ========================== */
+/* 1020px  */
 
 @media (max-width:1020px)
 {
-    .asid-wrapper
+    .aside
     {
         display: none;
     }
